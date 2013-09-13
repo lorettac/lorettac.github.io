@@ -1,0 +1,146 @@
+/**{
+ border:1px dashed
+	;
+}*/
+
+.jumbotron 
+{
+padding: 5px;
+
+}
+.third-jumbotron-item {
+width: 25%;
+vertical-align:right;
+
+}
+
+.work 
+{
+height: 20px;
+}
+
+.alpha
+{
+ height: 25px;
+}
+#icons
+{
+ padding: 5px;
+ margin-right: -1200px;
+ border: 1px solid #bbb;
+}
+#img
+{
+
+vertical-align: middle;
+}
+
+.h3
+{
+text-align: center;
+vertical-align: middle;
+}
+
+.img-responsive 
+{
+display: block;
+height: auto;
+max-width: 100%;
+
+}
+#header
+{ 
+padding-right: 10px;
+padding-left: 10px;
+margin-left:  60px;
+padding-top:0;
+
+}
+
+#middle
+{
+
+padding-right: 10px;
+padding-left: 10px;
+margin-left: 20px;
+margin-right: 20px;
+padding-top: 0;
+}
+.dl-horizontal dt
+{
+ padding-right:100px;
+ position: left;
+
+}
+
+
+.dl-horizontal dd
+{
+position: left;
+width: 120px;
+margin: 5px;
+padding-right:0;
+}
+
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Xtra Small */
+@media (max-width: 767px) {
+	.xs-text-centered {
+		text-align: center;
+	}
+
+	.sm-text-centered {
+		text-align: center;
+	}
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+	.sm-dl-compact dt {
+		width: 30px;
+	}
+
+	.lol
+	{
+		text-align: center;
+
+	}
+	
+	.sm-dl-compact dd {
+		margin-left: 50px;
+	}
+	.sm-text-centered {
+		text-align: center;
+	}
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.sm-dl-compact dt {
+		width: 50px;
+	} 
+	.sm-dl-compact dd {
+		margin-left: 70px;
+	}
+
+}
+
+/* Large */
+@media (min-width: 1200px) {
+	.sm-dl-compact dt {
+		width: 50px;
+	} 
+	.sm-dl-compact dd {
+		margin-left: 70px;
+	}
+}
+
+.row div img{
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align: middle;
+}
